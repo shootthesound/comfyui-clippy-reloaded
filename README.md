@@ -13,6 +13,10 @@
   <a href="https://buymeacoffee.com/lorasandlenses"><img src="https://img.shields.io/badge/Buy%20me%20a%20coffee-FFDD00?style=for-the-badge&logo=buy-me-a-coffee&logoColor=black" alt="Buy Me A Coffee"></a>
 </p>
 
+<p align="center">
+  <img src="screenshot.png" alt="Clippy Reloaded in ComfyUI">
+</p>
+
 ---
 
 ### What does it do?
