@@ -1,0 +1,20 @@
+[project]
+name = "comfyui-clippy-reloaded"
+description = "Load any image straight from your clipboard into a ComfyUI workflow, with a dedicated node that handles clipboard image capture automatically. Now with 100% more emotional damage."
+version = "1.0.0"
+license = "MIT"
+authors = [
+    { name = "Peter Neill" }
+]
+readme = "README.md"
+requires-python = ">=3.10"
+
+[project.urls]
+Homepage = "https://github.com/shootthesound/comfyui-clippy-reloaded"
+Repository = "https://github.com/shootthesound/comfyui-clippy-reloaded"
+Issues = "https://github.com/shootthesound/comfyui-clippy-reloaded/issues"
+
+[tool.comfy]
+PublisherId = "shootthesound"
+DisplayName = "Clippy Reloaded"
+Icon = ""
