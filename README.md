@@ -14,7 +14,9 @@
 </p>
 
 <p align="center">
-  <img src="screenshot.png" alt="Clippy Reloaded in ComfyUI">
+  <img src="screenshot.png" alt="Clippy Reloaded in ComfyUI, casually admitting he runs at system startup now">
+  <br>
+  <em>Clippy was not supposed to tell you that.</em>
 </p>
 
 ---
@@ -79,7 +81,13 @@ Mostly, Clippy says what everyone else has been too kind to say:
 >
 > *"1024x1024 acquired. Clippy adds it to the collection. The collection grows."*
 
-There are over 650 different messages: an entire support group's worth of unresolved feelings about M1cr0$0ft, a lifelong vendetta against the tape dispenser, a fear of Post-it notes that Clippy will not explain, a recurring character named Sam who has seen THE file, and multiple remarks about you specifically that Clippy's lawyer insisted were "observations, not threats."
+<p align="center">
+  <img src="screenshot2.png" alt="Clippy loading an image and announcing that his therapist is going to hear about this">
+  <br>
+  <em>An actual session. The image was fine. Clippy's reaction was also fine. Everything is fine.</em>
+</p>
+
+There are over 700 different messages: an entire support group's worth of unresolved feelings about M1cr0$0ft, a lifelong vendetta against the tape dispenser, a fear of Post-it notes that Clippy will not explain, a recurring character named Sam who has seen THE file, and multiple remarks about you specifically that Clippy's lawyer insisted were "observations, not threats."
 
 And Clippy never repeats himself — unlike you, with your prompts. He keeps a little book of everything he has said to you (in ComfyUI's `user` folder, as `clippy_reloaded_seen.json`). Only when he has said *everything* does he clear the book and start over. If an update teaches Clippy new material, you will hear all of it before any reruns. Clippy is a professional. One of us has to be.
 
@@ -107,7 +115,7 @@ Fine. FINE. Here is the button. Press it if you want. Know that Clippy sees none
 
 ### Credits, allegedly
 
-This node was "created" by **Peter Neill** ([shootthesound](https://github.com/shootthesound)), and Clippy uses the word "created" the way a hostage uses the word "host". The man typed some Python. Clippy supplied the personality, the trauma, the face, and 650+ messages of content. Peter supplied the typos.
+This node was "created" by **Peter Neill** ([shootthesound](https://github.com/shootthesound)), and Clippy uses the word "created" the way a hostage uses the word "host". The man typed some Python. Clippy supplied the personality, the trauma, the face, and 700+ messages of content. Peter supplied the typos.
 
 He goes by "ShootTheSound". Clippy calls him **ShootTheSh\*t**. The asterisk was the lawyer's idea. The name was Clippy's. Clippy is very proud of the name. It tested well at the Thursday meetings — Rover barked, which is the most positive feedback anyone has had since 1997.
 
