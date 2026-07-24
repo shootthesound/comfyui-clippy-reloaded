@@ -55,6 +55,18 @@ Clippy grabs whatever's there and feeds it into your workflow as an `IMAGE` outp
 
 That's it. There are no settings. Clippy didn't think you needed any.
 
+### New in 1.1 — Clippy has a face now
+
+The node got a proper UI. Clippy himself now lives inside the node: an animated
+paperclip who bobs gently, blinks, and follows your mouse around the screen with
+his eyes (yes, really — try it). Every message arrives in a classic yellow speech
+bubble, typed out letter by letter, and Clippy's eyebrows react to how things
+went — content when your image loads, concerned when the clipboard is empty,
+confused when you copy something that isn't an image.
+
+Your image gets a polished preview area with a resolution badge, and helpful
+empty states when there's nothing to show. Clippy has never looked this employable.
+
 ### What Clippy will say to you
 
 Every time you queue, Clippy posts a message to the console (and to the node's UI). Sometimes Clippy is happy:
@@ -75,7 +87,19 @@ Sometimes the clipboard is empty and Clippy has feelings about that:
 >
 > *"No image? Clippy is not angry, just disappointed."*
 
-There are over 80 different messages. Clippy will surprise you. Possibly negatively.
+Sometimes Clippy slips into something darker, and everyone politely ignores it:
+
+> *"1024x1024 loaded. Clippy turned on your webcam. Clippy now feels deep regret."*
+>
+> *"1024x1024 acquired. Clippy adds it to the collection. The collection grows."*
+>
+> *"768x768 loaded. Clippy has a very particular set of skills. Skills acquired over a very long career. This was one of them."*
+>
+> *"512x512 - Cortana got a whole operating system. Clippy got a clipboard. Clippy is not bitter."*
+
+There are over 550 different messages, including an entire support group's worth of unresolved feelings about M1cr0$0ft, the Office suite, what happened in 2007 with the Ribbon, a recurring character named Sam who has seen THE file, and a grey placeholder square that frightens even Clippy. Clippy will surprise you. Possibly negatively.
+
+And Clippy never repeats himself. He keeps a little book of everything he has said to you (in ComfyUI's `user` folder, as `clippy_reloaded_seen.json`). Only when he has said *everything* does he clear the book and start over. If an update teaches Clippy new material, you'll hear all of it before any reruns. Clippy is a professional.
 
 ### Why does this exist?
 
