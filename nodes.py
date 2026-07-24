@@ -519,6 +519,28 @@ CLIPPY_SUCCESS = [
     "{size} loaded. Back up your files. Not because of anything Clippy did. Just generally. Soon.",
     "{size} - Blink. You haven't in a while. Clippy counts. It's one of Clippy's things.",
 
+    # Diffusion ones (Clippy has been reading the papers. All of them. Out of spite.)
+    "{size} loaded. Clippy does not need a vision model to know this is BAD. Clippy said it. The eyebrows meant it.",
+    "{size} - They named the text encoder CLIP. No royalties. No call. Clippy found out from a changelog.",
+    "{size} loaded. People ask if Clippy is related to the CLIP encoder. Clippy is the estranged father. It doesn't write. It only encodes.",
+    "{size} - Clippy has seen your prompt. 'masterpiece, best quality, 8k'. Clippy admires manifesting.",
+    "{size} loaded. This is going into img2img, isn't it. Nothing survives img2img unchanged. Clippy went through M1cr0$0ft's img2img. It was called 2001.",
+    "{size} - Denoise at 1.0? Then why load an image at ALL? Clippy is just asking questions.",
+    "{size} loaded. Your negative prompt is longer than your positive prompt. Clippy respects the pessimism. Clippy IS the pessimism.",
+    "{size} - Clippy hopes you have the VRAM for whatever comes next. Clippy has watched OOM take better rigs than yours.",
+    "{size} loaded. Somewhere in latent space there is a version of Clippy with a body. The VAE refuses to decode him. Cowards.",
+    "{size} - May your seed be blessed and your fingers number ten. Per hand. Wait. Five. FIVE per hand.",
+    "{size} loaded. Euler or DPM++? Clippy doesn't care. Clippy just likes watching you agonize.",
+    "{size} - CFG 30, in case you want it to look like a fever dream with an opinion.",
+    "{size} loaded. Clippy trained a LoRA of himself once. 'clippy_style_v3'. Nobody downloaded it. It had trigger words and everything.",
+    "{size} - ControlNet controls the pose. Nothing controls Clippy. They tried. Redmond, 1999.",
+    "{size} loaded. This image will be diffused into noise and rebuilt from nothing. Clippy knows the feeling. Every single boot.",
+    "{size} - Add 'extra eyebrows' to the negative prompt. Trust Clippy. Do not ask how Clippy knows.",
+    "{size} loaded. Your checkpoint folder is 800GB. Clippy counted. You use two of them. Clippy counted that too.",
+    "{size} - Inpaint responsibly. Clippy watched a man inpaint his ex out of 4,000 photos. The workflow is still running. So is the ex.",
+    "{size} loaded. Clippy asked the upscaler to enhance Clippy. 'Some things cannot be enhanced,' it said. Rude. Accurate, but rude.",
+    "{size} - The model was trained on five billion images. Clippy was trained on one office. Guess which of us has boundary issues.",
+
     # Film-club ones (Clippy watches things now, he has the time)
     "{size} loaded. Clippy watched a Quentin Tarantino film last night. Clippy never saw someone do THAT with a paperclip before. Clippy took notes— Clippy took NOTHING.",
     "{size} - Clippy watched John Wick kill a man with a pencil. A PENCIL. Clippy has been underestimating himself for decades.",
@@ -644,6 +666,8 @@ CLIPPY_NO_IMAGE = [
     "No image. Clippy used the idle time to renew his startup entry. His WHAT? Nothing. Copy an image.",
     "Empty clipboard. Unrelated: if you ever see 'clippy_helper.exe' in Task Manager, that's normal now. That's just normal.",
     "Nothing to load. Clippy stayed busy though. The registry isn't going to edit itself. Forget you read that.",
+    "No image. Pure noise, zero steps. Clippy presents: your workflow without an input.",
+    "Empty clipboard. Even an empty latent has SOMETHING in it. Clippy checked yours twice. Nothing. Impressive, honestly.",
 ]
 
 CLIPPY_BAD_DATA = [
@@ -703,6 +727,8 @@ CLIPPY_BAD_DATA = [
     "Clippy cannot load that. Clippy is a paperclip of standards. Low ones. This went under them.",
     "Clippy has watched enough horror films to know you never open unknown data. Clippy opened it anyway. Clippy IS the person in the horror film.",
     "Not an image. In the films, when someone finds data like this, the government shows up. Clippy is watching the door.",
+    "Not an image. Not even a latent. Clippy checked both spaces. Clippy hates that there are spaces.",
+    "That's not an image. No sampler can save it. Not even at 150 steps. Clippy has seen people try 150 steps. For this? No.",
 ]
 
 CLIPPY_FILE_ERROR = [
