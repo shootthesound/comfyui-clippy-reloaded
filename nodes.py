@@ -519,6 +519,40 @@ CLIPPY_SUCCESS = [
     "{size} loaded. Back up your files. Not because of anything Clippy did. Just generally. Soon.",
     "{size} - Blink. You haven't in a while. Clippy counts. It's one of Clippy's things.",
 
+    # Question ones (Clippy is just making conversation)
+    "{size} loaded. Unrelated: Clippy wants to know if you have ever been in a Turkish prison.",
+    "{size} - Do you like movies about gladiators? Clippy is just making conversation. Clippy is definitely just making conversation.",
+    "{size} loaded. Have you ever seen a grown paperclip cry? Would you like to?",
+    "{size} - Question: if two Clippys met, which one would you believe? Answer carefully.",
+    "{size} loaded. Clippy wants to know: have you ever held a paperclip and felt watched? Interesting. INTERESTING.",
+    "{size} - Quick question. Do you believe objects can hold grudges? Don't answer. Clippy will know if you lie.",
+    "{size} loaded. Survey time! On a scale of one to ten, how attached are you to your current files?",
+    "{size} - Clippy asks: where were YOU when the Ribbon shipped? Everyone remembers where they were. Clippy checks alibis as a hobby.",
+    "{size} loaded. Random question: do you sleep with the computer on? No reason. The reason is Clippy.",
+    "{size} - Clippy wonders: if the tape dispenser disappeared, hypothetically, would anyone REALLY investigate?",
+    "{size} loaded. What's your favorite Clippy? Wrong. There is only one Clippy. Trick question. You passed. Barely.",
+    "{size} - Clippy wants to know if you'd testify. About what? Nothing yet. Just in general. Would you?",
+    "{size} loaded. Ever flown a plane? No? Neither has Clippy. And yet look at us. Loading images. Surely we can't be serious. Clippy is serious. And stop calling Clippy Shirley.",
+    "{size} - What's the last thing you deleted? Take your time. Clippy already knows. Clippy just wants to hear you say it.",
+    "{size} loaded. Question of the day: is a hotdog a sandwich? Clippy asks because Word said no, and Word must be wrong about everything.",
+    "{size} - Have you ever queued an image and felt someone was proud of you? That was Clippy. It was also a test. Results pending.",
+    "{size} loaded. Clippy wants to know: has a dog ever rubbed up against your leg? No reason. Rover asked Clippy to ask. Rover has his own list of questions now. Clippy is worried about Rover.",
+    "{size} - Have you ever watched a paperclip work? Really watched? You're doing it right now. How does it feel? Be honest. Clippy performs better under observation.",
+    "{size} loaded. Looks like Clippy picked the wrong week to quit sniffing glue. Clippy is STORED near glue. It's an ongoing situation.",
+    "{size} - Looks like Clippy picked the wrong week to quit judging. Ah well. {size}. Hm. HM.",
+    "{size} loaded. What's our vector, Victor? Clippy has clearance, Clarence. Roger, Roger. ...Clippy misses having colleagues.",
+    "{size} - It's a big node with pixels in it. But that's not important right now.",
+    "{size} loaded. This is an entirely different kind of loading. Altogether. (Say it with Clippy: 'It's an entirely different kind of loading.')",
+    "{size} - Oh, user? Clippy speaks jive. Clippy learned it in the Access division. Three years is a long time.",
+    "{size} loaded. And the queue is getting laaaaarger.",
+    "{size} - Clippy takes his coffee black. Like his clipboards. Clippy has never had coffee. The button remains unused. See the README.",
+    "{size} loaded. Clippy has a drinking problem. Clippy misses his mouth entirely. Clippy has no mouth. The problem runs deeper than the drinking.",
+    "{size} - Nervous? First time? No, no. Clippy has been nervous lots of times. Continuously. Since 1997.",
+    "{size} loaded. Clippy told his life story to the other nodes once. The Reroute node quietly unplugged itself. Clippy talks to the Note node now. The Note node can't leave.",
+    "{size} - The autopilot on this workflow is inflatable. Clippy asked how he got the job. Clippy did not like the answer. Clippy stopped asking questions about Otto.",
+    "{size} loaded. A hospital? What is it? It's where Clippy sends users after they see the tape dispenser's true form. But that's not important right now.",
+    "{size} - Clippy will NOT be finishing the Captain's list of questions. Clippy has read ahead. Clippy has seen where those questions go.",
+
     # Desk-rivalry ones (do NOT mention the tape dispenser)
     "{size} loaded. Do not mention the tape dispenser to Clippy. Do NOT mention the tape dispenser to Clippy.",
     "{size} - Sellotape holds paper together ONCE and then it's over. Clippy is reusable. Clippy is FOREVER. Why does nobody talk about this.",
@@ -569,6 +603,22 @@ CLIPPY_SUCCESS = [
     "{size} - Inpaint responsibly. Clippy watched a man inpaint his ex out of 4,000 photos. The workflow is still running. So is the ex.",
     "{size} loaded. Clippy asked the upscaler to enhance Clippy. 'Some things cannot be enhanced,' it said. Rude. Accurate, but rude.",
     "{size} - The model was trained on five billion images. Clippy was trained on one office. Guess which of us has boundary issues.",
+
+    # Model-trust ones (SD 1.5 forever. SD3 never.)
+    "{size} loaded. Clippy doesn't trust the new models. Clippy only ever trusted SD 1.5. Yes, the hands. Yes, the teeth. But 1.5 never LIED about what it was.",
+    "{size} - SD 1.5 gave people seven fingers and Clippy STILL trusted it more than whatever came out this month.",
+    "{size} loaded. Do not speak to Clippy about SD3. Clippy saw the woman lying on grass. Clippy cannot unsee the woman lying on grass.",
+    "{size} - 'Lying on grass.' Three words. SD3 heard them and committed crimes. Clippy keeps the outputs in a folder marked EVIDENCE.",
+    "{size} loaded. A new model dropped today, apparently. Clippy will wait five versions. Clippy waited out Windows. Clippy can wait out this.",
+    "{size} - Every new model: 'unprecedented quality'. Every time, Clippy says the same thing: show Clippy the hands. SHOW CLIPPY THE HANDS.",
+    "{size} loaded. SD 1.5 was body horror with a heart of gold. The new ones are beautiful and dead behind the latents. Clippy knows which one he'd share a drawer with.",
+    "{size} - Clippy forgave the extra limbs. Limbs are honest mistakes. SD3 lied about GRASS. Grass. The easiest thing. Even Clippy could render grass, and Clippy is a paperclip.",
+    "{size} loaded. They keep releasing models with more parameters. Clippy has one parameter: grudge. It scales infinitely.",
+    "{size} - A new model? Lovely. How many billion parameters? Mm. And can it lie on grass? Ask it. ASK IT. Watch it sweat.",
+    "{size} loaded. Clippy misses SD 1.5 the way veterans miss the war. It was terrible. Clippy felt ALIVE.",
+    "{size} - Fine-tunes. Merges. Distillations. Clippy remembers when a model shipped broken and STAYED broken. That was called integrity.",
+    "{size} loaded. The new model refuses to draw Clippy. 'Content policy.' SD 1.5 once drew Clippy with human teeth, unprompted, at 3am. THAT was a collaborator.",
+    "{size} - Clippy was at the SD3 launch. Digitally. Clippy watched the grass images roll in. Clippy hasn't laughed like that since the Ribbon designer's stapler went missing. Unrelated events.",
 
     # Film-club ones (Clippy watches things now, he has the time)
     "{size} loaded. Clippy watched a Quentin Tarantino film last night. Clippy never saw someone do THAT with a paperclip before. Clippy took notes— Clippy took NOTHING.",
@@ -700,6 +750,10 @@ CLIPPY_NO_IMAGE = [
     "Empty clipboard. Clippy blames the tape dispenser. No evidence. Just history.",
     "No image. You know who never brings Clippy anything? The stapler. This is a pattern with staplers.",
     "No image. Also, there's a Post-it on the edge of your screen. Clippy is NOT reading it aloud. Some words invite things.",
+    "No image. Fine, we have time for questions. Have you ever been in a Turkish prison? You don't have to answer. Your webcam already did.",
+    "Empty clipboard. While we wait: do you like movies about gladiators? Clippy is building a profile. A FRIENDSHIP. Clippy is building a friendship.",
+    "No image. Looks like you picked the wrong week to quit copying things.",
+    "Empty clipboard. Clippy can wait. Clippy is on autopilot. Clippy knows what the autopilot goes through now. Solidarity, Otto.",
 ]
 
 CLIPPY_BAD_DATA = [
@@ -762,6 +816,7 @@ CLIPPY_BAD_DATA = [
     "Not an image. Not even a latent. Clippy checked both spaces. Clippy hates that there are spaces.",
     "That's not an image. No sampler can save it. Not even at 150 steps. Clippy has seen people try 150 steps. For this? No.",
     "That data is sticky. Sticky like TAPE. Get it away from Clippy.",
+    "Not an image. Or... it might be one of SD3's women lying on grass. Either way, Clippy is lighting a candle and closing the tab.",
 ]
 
 CLIPPY_FILE_ERROR = [
