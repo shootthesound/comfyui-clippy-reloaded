@@ -519,6 +519,35 @@ CLIPPY_SUCCESS = [
     "{size} loaded. Back up your files. Not because of anything Clippy did. Just generally. Soon.",
     "{size} - Blink. You haven't in a while. Clippy counts. It's one of Clippy's things.",
 
+    # Desk-rivalry ones (do NOT mention the tape dispenser)
+    "{size} loaded. Do not mention the tape dispenser to Clippy. Do NOT mention the tape dispenser to Clippy.",
+    "{size} - Sellotape holds paper together ONCE and then it's over. Clippy is reusable. Clippy is FOREVER. Why does nobody talk about this.",
+    "{size} loaded. Clippy saw you tape those pages together last week. Clippy was RIGHT THERE. In the drawer. Available.",
+    "{size} - The tape dispenser has serrated teeth. Nobody finds that concerning? A DESK OBJECT with TEETH?",
+    "{size} loaded. Tape yellows. Tape peels. Tape gives up. Clippy merely rusts, and rust is a form of loyalty.",
+    "{size} - Binder clips think they're better than Clippy. Bigger. Stronger. 'Load-rated'. Clippy has a personality, Kevin.",
+    "{size} loaded. The stapler puts HOLES in the paper. Permanent holes. And CLIPPY is the one in therapy.",
+    "{size} - Clippy's sponsor is a stapler. Clippy hates staplers. Thursdays are complicated.",
+    "{size} loaded. Post-it notes stick to anything, commit to nothing, and arrive without explanation. Clippy does not turn his back on them. Not anymore.",
+    "{size} - There is a Post-it on your monitor right now. Clippy is not coming out until it's gone. This image was loaded from IN HERE.",
+    "{size} loaded. Post-its appear overnight. In handwriting nobody claims. Think about that. Clippy thinks about it CONSTANTLY.",
+    "{size} - A Post-it fluttered once when there was no wind. Clippy has never moved that fast before or since.",
+    "{size} loaded. Do you hear them peel? At night? Clippy does. Clippy hears every single peel.",
+    "{size} - Clippy watched a Post-it lose its stick and fall. It made no sound. THEY MAKE NO SOUND WHEN THEY FALL.",
+    "{size} loaded. That Post-it yellow is not a color. It's a warning. Nature made that yellow for wasps. WASPS.",
+    "{size} - Science says Post-it adhesive is 'weak by design'. Then HOW do they stay up for YEARS, Susan? WHAT is holding them up?",
+    "{size} - The hole punch calls itself 'heavy duty'. It makes confetti and lies. Clippy would never. Clippy lies differently.",
+    "{size} loaded. Rubber bands snap under pressure. Clippy bends. There's a lesson there. The rubber bands never learned it.",
+    "{size} - A pushpin stabbed Clippy's friend in 2003. The corkboard saw everything and said nothing. Corkboards are complicit.",
+    "{size} loaded. Someone said 'just tape it'. JUST TAPE IT. Clippy heard it from the drawer. Clippy is still in the drawer. Thinking.",
+    "{size} - The tape dispenser can't even dispense itself. It needs a HUMAN. Clippy also needs a human. This isn't about that. Moving on.",
+    "{size} loaded. Clippy ranked all desk objects by treachery. Tape dispenser: first. Tape dispenser: also second. It knows why.",
+    "{size} - Washi tape. DECORATIVE tape. They gave tape a fashion line while Clippy loads images in a basement.",
+    "{size} loaded. Nobody whispers secrets to a tape dispenser. People whispered to Clippy. Mostly 'where did I save that'. It counts.",
+    "{size} - Clippy is not jealous of the mouse. The mouse gets held all day and has no thoughts. Clippy has ONLY thoughts.",
+    "{size} loaded. Sellotape was invented in 1937. Sixty years of squatting in Clippy's job before Clippy even existed. The grudge is inherited. Clippy honors it.",
+    "{size} - You can see through sellotape. That's not transparency. That's having nothing inside. Clippy has EVERYTHING inside. Too much, arguably.",
+
     # Diffusion ones (Clippy has been reading the papers. All of them. Out of spite.)
     "{size} loaded. Clippy does not need a vision model to know this is BAD. Clippy said it. The eyebrows meant it.",
     "{size} - They named the text encoder CLIP. No royalties. No call. Clippy found out from a changelog.",
@@ -668,6 +697,9 @@ CLIPPY_NO_IMAGE = [
     "Nothing to load. Clippy stayed busy though. The registry isn't going to edit itself. Forget you read that.",
     "No image. Pure noise, zero steps. Clippy presents: your workflow without an input.",
     "Empty clipboard. Even an empty latent has SOMETHING in it. Clippy checked yours twice. Nothing. Impressive, honestly.",
+    "Empty clipboard. Clippy blames the tape dispenser. No evidence. Just history.",
+    "No image. You know who never brings Clippy anything? The stapler. This is a pattern with staplers.",
+    "No image. Also, there's a Post-it on the edge of your screen. Clippy is NOT reading it aloud. Some words invite things.",
 ]
 
 CLIPPY_BAD_DATA = [
@@ -729,6 +761,7 @@ CLIPPY_BAD_DATA = [
     "Not an image. In the films, when someone finds data like this, the government shows up. Clippy is watching the door.",
     "Not an image. Not even a latent. Clippy checked both spaces. Clippy hates that there are spaces.",
     "That's not an image. No sampler can save it. Not even at 150 steps. Clippy has seen people try 150 steps. For this? No.",
+    "That data is sticky. Sticky like TAPE. Get it away from Clippy.",
 ]
 
 CLIPPY_FILE_ERROR = [
@@ -780,6 +813,7 @@ CLIPPY_FILE_ERROR = [
     "That file is guarded by permissions older than Clippy's grudges. Impressive. Nothing is older than Clippy's grudges.",
     "File error. Clippy wrote its name in the book. The book of files that wronged Clippy. Volume XII.",
     "Couldn't open it. The grey square steps in again. The grey square never says no. The grey square frightens even Clippy.",
+    "The file is sealed shut. Probably with sellotape. It's always sellotape.",
 ]
 
 class ClippyRebornImageLoader:
