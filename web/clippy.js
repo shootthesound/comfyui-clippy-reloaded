@@ -222,7 +222,7 @@ app.registerExtension({
         nodeType.prototype.onNodeCreated = function () {
             onNodeCreated?.apply(this, arguments);
             buildUI(this);
-            this.setSize([330, 440]);
+            this.setSize([330, 500]);
         };
 
         const onExecuted = nodeType.prototype.onExecuted;

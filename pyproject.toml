@@ -1,7 +1,7 @@
 [project]
 name = "comfyui-clippy-reloaded"
 description = "Load any image straight from your clipboard into a ComfyUI workflow, with a dedicated node that handles clipboard image capture automatically. Now with 100% more emotional damage."
-version = "1.1.4"
+version = "1.2.0"
 license = "MIT"
 authors = [
     { name = "Peter Neill" }

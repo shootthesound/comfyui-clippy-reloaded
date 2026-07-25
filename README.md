@@ -46,6 +46,14 @@ The clipboard. The thing you've been using wrong for years. Clippy accepts:
 
 Clippy grabs whatever's there and feeds it into your workflow as an `IMAGE` output. Always RGB. Always ready. Always more prepared than you are.
 
+### Outputs
+
+Four of them now. Clippy was fine with one, but apparently you people need everything spelled out:
+
+- **image** — the image. From the clipboard. Keep up.
+- **width** / **height** — integers, in pixels, so you can stop squinting at the badge and wire the numbers straight into an empty latent like you were always going to.
+- **clippy_says** — Clippy's caption, as a `STRING`. Yes, you can feed Clippy's words into your workflow. Into a text overlay. Into a prompt, if you're feeling brave. Clippy accepts no responsibility for what the sampler does with "Clippy's therapist is going to hear about this."
+
 ### Install
 
 Read this slowly. Clippy knows you won't, and Clippy knows you'll open an issue about it, and Clippy has already read your issue, and the answer was step 2.

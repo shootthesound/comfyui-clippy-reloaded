@@ -887,9 +887,14 @@ class ClippyRebornImageLoader:
             "required": {},
         }
 
-    RETURN_TYPES = ("IMAGE",)
-    RETURN_NAMES = ("image",)
-    OUTPUT_TOOLTIPS = ("Image from clipboard (RGB format).",)
+    RETURN_TYPES = ("IMAGE", "INT", "INT", "STRING")
+    RETURN_NAMES = ("image", "width", "height", "clippy_says")
+    OUTPUT_TOOLTIPS = (
+        "Image from clipboard (RGB format).",
+        "Width of the loaded image in pixels.",
+        "Height of the loaded image in pixels.",
+        "Whatever Clippy said about it. Use responsibly.",
+    )
     FUNCTION = "load_from_clipboard"
     CATEGORY = "image"
     OUTPUT_NODE = True
@@ -982,7 +987,7 @@ Works with:
                 }],
                 "text": [clippy_message],
             },
-            "result": (img_tensor,)
+            "result": (img_tensor, img.size[0], img.size[1], clippy_message)
         }
 
 
